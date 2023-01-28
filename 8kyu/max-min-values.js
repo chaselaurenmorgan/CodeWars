@@ -2,16 +2,18 @@
 
 
 
-const min = function(list){
+// const min = function(list){
     
-    return Math.min(...list);
-}
+//     return Math.min(...list);
+// }
 
-const max = function(list){
+// const max = function(list){
     
-    return Math.max(...list)
-}
+//     return Math.max(...list)
+// }
 
+const min = list => Math.min(...list)
+const max = list => Math.max(...list)
 
 
 
